@@ -1,0 +1,6 @@
+2020-04-05 01:49:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE USER([*]ID INT NOT NULL, SENDERID INT NOT NULL, RECEIVERID INT NOT NULL, AMOUNT INT, PRIMARY KEY (ID)) "; expected "identifier"; SQL statement:
+create user(id int NOT NULL, senderId int NOT NULL, receiverId int NOT NULL, amount int, PRIMARY KEY (id)) [42001-197]
+2020-04-05 01:49:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE USER([*]ID INT NOT NULL, SENDERID INT NOT NULL, RECEIVERID INT NOT NULL, AMOUNT INT, PRIMARY KEY (ID)) "; expected "identifier"; SQL statement:
+create user(id int NOT NULL, senderId int NOT NULL, receiverId int NOT NULL, amount int, PRIMARY KEY (id)) [42001-197]

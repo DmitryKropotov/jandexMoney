@@ -1,0 +1,6 @@
+2020-04-05 01:45:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PAYMENT" already exists; SQL statement:
+create table payment (id int NOT NULL, senderId int, receiverId int, amount int, PRIMARY KEY (id)) [42101-197]
+2020-04-05 01:45:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+create table user(id int NOT NULL, PRIMARY KEY (id)) [42101-197]
